@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Nikola Tesla",
+    "id": 0,
+    "wiki": "https://en.wikipedia.org/wiki/Nikola_Tesla"
+  },
+  {
+    "name": "Elon Musk",
+    "id": 1,
+    "wiki": "https://en.wikipedia.org/wiki/Elon_Musk"
+  },
+  {
+    "name": "RavindraBabu Ravula",
+    "id": 2,
+    "wiki": "https://www.ravindrababuravula.com/about.php"
+  },
+
+  {
+    "name": "Devesh Kumar Sharma",
+    "id": 3,
+    "wiki": "http://auup.amity.edu/faculty-detail.aspx?facultyID=7670"
+  },
+
+  {
+    "name": "Warren Buffett",
+    "id": 4,
+    "wiki": "https://en.wikipedia.org/wiki/Warren_Buffett"
+  },
+  {
+    "name": "Alan Turing",
+    "id": 5,
+    "wiki": "https://en.wikipedia.org/wiki/Alan_Turing"
+  }
+]

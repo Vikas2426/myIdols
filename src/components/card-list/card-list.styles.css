@@ -1,0 +1,9 @@
+.card-list {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 10%;
+  width: 80%;
+  height: auto;
+}

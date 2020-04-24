@@ -1,26 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import idols from "./Assets/idols.json";
+import { CardList } from "./components/card-list/card-list.component.jsx";
+import SearchBox from "./components/searchbox/SearchBox.component.jsx";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      idols: idols,
+      searchField: "",
+    };
+  }
+
+  onSearchChange = (event) => {
+    this.setState({
+      searchField: event.target.value,
+    });
+  };
+
+  render() {
+    let filteredIdols = this.state.idols.filter((idol) =>
+      idol.name.toLowerCase().includes(this.state.searchField)
+    );
+
+    return (
+      <div className="App">
+        <h1>My Idols</h1>
+        <SearchBox searchChange={this.onSearchChange} />
+        <CardList idols={filteredIdols} />
+      </div>
+    );
+  }
 }
 
 export default App;
