@@ -6,7 +6,7 @@ const SearchBox = ({ searchChange }) => {
     <input
       className="searchbox tc"
       type="search"
-      placeholder="Search Idols"
+      placeholder="Search"
       onChange={searchChange}
     />
   );

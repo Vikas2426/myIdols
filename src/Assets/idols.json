@@ -2,33 +2,37 @@
   {
     "name": "Nikola Tesla",
     "id": 0,
-    "wiki": "https://en.wikipedia.org/wiki/Nikola_Tesla"
+    "wiki": "https://en.wikipedia.org/wiki/Nikola_Tesla",
+    "image": "https://nikolatesla-network.eu/images/uploads/nikola-tesla-hrvatska_600_804_80_s_c1.jpg"
   },
   {
     "name": "Elon Musk",
     "id": 1,
-    "wiki": "https://en.wikipedia.org/wiki/Elon_Musk"
+    "wiki": "https://en.wikipedia.org/wiki/Elon_Musk",
+    "image": "https://cdn.vox-cdn.com/thumbor/kSJBBfsp6cFLhtahIih56rvJF60=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/15971132/elon_musk_tesla_3225.jpg"
   },
   {
-    "name": "RavindraBabu Ravula",
+    "name": "Ravindrababu Ravula",
     "id": 2,
-    "wiki": "https://www.ravindrababuravula.com/about.php"
+    "wiki": "https://www.ravindrababuravula.com/about.php",
+    "image": "https://yt3.ggpht.com/ytc/AAUvwngl4A1lvi7Z8xkXJd2_S-fkqlhNoTlk1fMEtxYbRQ=s900-c-k-c0x00ffffff-no-rj"
   },
-
   {
     "name": "Devesh Kumar Sharma",
     "id": 3,
-    "wiki": "http://auup.amity.edu/faculty-detail.aspx?facultyID=7670"
+    "wiki": "http://auup.amity.edu/faculty-detail.aspx?facultyID=7670",
+    "image": "https://amizone.net/AdminAmizone/Images/StaffImages/6557_P.png"
   },
-
   {
     "name": "Warren Buffett",
     "id": 4,
-    "wiki": "https://en.wikipedia.org/wiki/Warren_Buffett"
+    "wiki": "https://en.wikipedia.org/wiki/Warren_Buffett",
+    "image": "https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5babb7f1a7ea4342a948b79a%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D748%26cropX2%3D3075%26cropY1%3D1753%26cropY2%3D4082"
   },
   {
     "name": "Alan Turing",
     "id": 5,
-    "wiki": "https://en.wikipedia.org/wiki/Alan_Turing"
+    "wiki": "https://en.wikipedia.org/wiki/Alan_Turing",
+    "image": "https://static01.nyt.com/images/2019/06/10/obituaries/10overlooked-alanturing-1/f86fc26c86b444c391fb412bb3dcec76-superJumbo.jpg"
   }
 ]

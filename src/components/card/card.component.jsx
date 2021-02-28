@@ -11,8 +11,10 @@ export const Card = (props) => {
     >
       <div>
         <img
-          src={`https://robohash.org/${props.idol.id}?set=set2&size=180x180`}
+          src={props.idol.image}
           alt="robot"
+          width="150"
+          height="201"
         ></img>
         <h1>{props.idol.name}</h1>
       </div>

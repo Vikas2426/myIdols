@@ -3,7 +3,6 @@ import "./App.css";
 import idols from "./Assets/idols.json";
 import { CardList } from "./components/card-list/card-list.component.jsx";
 import SearchBox from "./components/searchbox/SearchBox.component.jsx";
-import Scroll from "./components/scroll/Scroll.component.jsx";
 import ErrorBoundary from "./components/errorboundary/ErrorBoundary.component.jsx";
 
 class App extends Component {
@@ -28,17 +27,16 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h1>My Idols</h1>
+        <p>My Idols</p>
         <SearchBox searchChange={this.onSearchChange} />
-        <Scroll>
-          <ErrorBoundary>
-            <CardList
-              idols={this.state.idols.filter((idol) =>
-                idol.name.toLowerCase().includes(this.state.searchField)
-              )}
-            />
-          </ErrorBoundary>
-        </Scroll>
+        <ErrorBoundary>
+          <CardList
+            idols={this.state.idols.filter((idol) =>
+              idol.name.toLowerCase().includes(this.state.searchField)
+            )}
+          />
+        </ErrorBoundary>
+
       </div>
     );
   }
